@@ -46,7 +46,7 @@ class App extends React.Component {
   render = () => {
     return (
       <div className="App">
-        <img src={onedroplogo} className="logo" />
+        <img src={onedroplogo} className="logo" alt="one drop logo" />
         <header className="header">
           <b>Riley Butterfield Assignment</b>
         </header>

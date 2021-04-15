@@ -3,9 +3,6 @@ import './App.css';
 import Card from 'react-bootstrap/Card';
 
 class ProductCard extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <Card>
@@ -13,6 +10,7 @@ class ProductCard extends React.Component {
           variant="top"
           src={this.props.imageSrc}
           className="productImage"
+          alt={this.props.title}
         />
         <Card.Body className="cardBody">
           <Card.Title>
