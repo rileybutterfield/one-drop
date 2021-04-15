@@ -2,6 +2,7 @@ import './App.css';
 import axios from 'axios';
 import React from 'react';
 import ProductCard from './ProductCard';
+import onedroplogo from './one-drop-logo.png';
 
 class App extends React.Component {
   constructor() {
@@ -45,8 +46,9 @@ class App extends React.Component {
   render = () => {
     return (
       <div className="App">
+        <img src={onedroplogo} className="logo" />
         <header className="header">
-          <b>Riley Butterfield: One Drop Assignment</b>
+          <b>Riley Butterfield Assignment</b>
         </header>
         <div className="productsBody">
           <div className="allProductsContainer">

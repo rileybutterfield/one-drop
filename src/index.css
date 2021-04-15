@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.logo {
+  width: 50%;
+  padding: 20px;
+}
+
 .header {
   background-color: #ff0067;
   height: 100px;
