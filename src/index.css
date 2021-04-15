@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  background-color: #ff0067;
+  height: 100px;
+  padding-top: 60px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 0px black;
+}
+
+.allProductsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.productsBody {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 1rem;
+}
+
+.card:hover {
+  box-shadow: 0 0.15em 0.75em rgba(0, 0, 0, 0.4);
+}
+
+.productImage {
+  width: 250px;
+  height: 70%;
+  background-size: cover;
+  background-position: center 33%;
+}
+
+.cardBody {
+  margin-top: 40px;
+  color: #ff0067;
+}
