@@ -28,10 +28,10 @@ class App extends React.Component {
     const { products } = data;
     const refreshedInfo = products
       .map((el) => {
-        let { title, variants, images } = el;
-        let { price } = variants[0];
-        let [image] = images;
-        let imageSrc = image.src;
+        const { title, variants, images } = el;
+        const { price } = variants[0];
+        const [image] = images;
+        const imageSrc = image.src;
         return { title, price, imageSrc };
       })
       .filter((el) => {
